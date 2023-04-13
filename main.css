@@ -1,0 +1,243 @@
+html {
+    background-color: #83b4d0;
+}
+
+
+h1 {
+
+    margin: 0 auto;
+    text-align: center;
+}
+*{
+    font-weight: 200;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* header code below  */
+
+    * {
+        text-decoration: none;
+    }
+
+    .headerTwo{
+        width: 100%;
+        float: center;
+        margin: 0 auto;
+        height: 60px;
+        padding:15px 0px 15px;
+        display: block;
+        /* background-color: #e0afa0; */
+
+        z-index: 1;
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+    }
+
+    .innerHeader{
+        width: 95%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        background-color: #3887b4;
+
+        /* outline border code below  */
+            
+            border-radius: 10px;
+    }
+
+    .myName{
+        height: 100%;
+        display: table;
+        float: left;
+        margin-left: 20px;
+
+    }
+
+    .myName h1{
+        font-size: 18px;
+        font-weight: 200;
+        color: white;
+
+        font-family: 'Cabin', sans-serif;
+        /* font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif; */
+
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .navigation{
+
+        margin: 0;
+        float: right;
+        height: 100%;
+    }
+
+    .navigation a{
+        height: 100%;
+        display: table;
+        float: left;
+            /* to give space between the text and the right */
+        padding: 0px 20px;
+    }
+
+    .navigation a li{
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        color: white;
+
+        font-family: 'Cabin', sans-serif;
+
+        font-size: 18px;
+        font-weight: 200;
+
+    }
+
+    .navigation a li:hover{
+        text-decoration: underline;
+        text-decoration-color: white;
+
+    }
+/* end of header code  */
+
+
+h2 {
+    font-size: 66px;
+    background-color: #3887b4;
+    color: #f4f3ee;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    /* text-decoration: underline; */
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.header{
+    /* border-radius: 0px; */
+    /* width: 95%; */
+    width: 650px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 100px ;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container button {
+    margin-right: 10px;
+    background-color: #3887b4;
+    border-radius: 10px;
+  }
+
+
+  .my-button {
+    border: none;
+    outline: none;
+  }
+
+.my-button:hover{
+  text-decoration: underline;
+}
+  
+
+/* temperature code  */
+
+    #temperature {
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #conditions {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .cold {
+        background-color: #6699cc;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .very-cold {
+        background-color: #336699;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .extremely-cold {
+        background-color: #003366;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+/* end of temperature code */
+
+
+/* second temperature code  */
+
+.weatherTitle{
+    margin: 0 auto;
+
+}
+
+.thermometer {
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid #3887b4;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+  .mercury {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff0000;
+    transition: height 0.5s ease;
+  }  
+  
+  .temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+
+
+.humidityDiv{
+    padding: 40px;
+    margin-bottom: 40px;
+}
+  #humidity {
+    
+    font-size: 16px;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  
+
+/* end of second temperature code  */
+
